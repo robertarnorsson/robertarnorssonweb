@@ -11,25 +11,25 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    colors: {
-      'primary': colors.slate,
-      'accent': colors.indigo,
-      'text': colors.gray,
-      'text-dark': colors.slate[950],
-      'text-light': colors.slate[50],
-      'text-accent': colors.gray[500],
-      'primary-dark': colors.slate[950],
-      'primary-light': colors.slate[50],
-      'accent-dark': colors.indigo[400],
-      'accent-light': colors.indigo[600],
-      'hover': colors.gray[400],
-    },
     fontFamily: {
       rubik: ["Rubik", "sans-serif"],
       roboto: ["Roboto", "sans-serif"],
       cooper: ["CooperHewitt", "sans-serif"],
     },
     extend: {
+      colors: {
+        'primary': colors.slate,
+        'accent': colors.indigo,
+        'text': colors.gray,
+        'text-dark': colors.slate[950],
+        'text-light': colors.slate[50],
+        'text-accent': colors.gray[500],
+        'primary-dark': colors.slate[950],
+        'primary-light': colors.slate[50],
+        'accent-dark': colors.indigo[400],
+        'accent-light': colors.indigo[600],
+        'hover': colors.gray[400],
+      },
       fontSize: {
         '10xl': ['9rem', '1'],
         '11xl': ['10rem', '1'],
