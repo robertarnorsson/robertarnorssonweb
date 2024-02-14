@@ -14,6 +14,7 @@ module.exports = {
     colors: {
       'primary': colors.slate,
       'accent': colors.indigo,
+      'text': colors.gray,
       'text-dark': colors.slate[950],
       'text-light': colors.slate[50],
       'text-accent': colors.gray[500],
